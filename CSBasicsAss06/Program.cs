@@ -81,11 +81,30 @@ namespace CSBasicsAss06
 
             #endregion
 
-        
-        
-        
-        
-        
+            #region 3 - Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+            //static void MinMaxArray(ref int mx , ref int mn , params int[] numbers)
+            //      {
+
+            //      if(numbers?.Length>0 )
+            //      {
+            //          mx = numbers.Max();
+            //          mn = numbers.Min();
+            //      }
+            //      Console.WriteLine($"max value:\t{mx}\nmin value:\t{mn}\n\n");
+            //  }
+
+            //  int mxNum = 0; int mnNum=0;
+            //  MinMaxArray(ref mxNum,ref mnNum,-1,0,3,4,3,8,-4,2);
+
+            //  int[] arrNumbers = { 4, 0, 8, -2, 22, 90, -30 };
+            //  MinMaxArray(ref mxNum, ref mnNum, arrNumbers);
+
+            #endregion
+
+
+
+
+
         }
     }
 }
